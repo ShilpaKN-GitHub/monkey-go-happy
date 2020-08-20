@@ -188,7 +188,6 @@ function spawnObstacles() {
     var obstacle = createSprite(800,350,10,40);    
     obstacle.addImage(obstacleImage);
     obstacle.setCollider("rectangle",0,0,obstacle.width,obstacle.height);
-    obstacle.debug = true;
     obstacle.velocityX = -6;   
     obstacle.scale = 0.2;
     obstacle.lifetime = 300;
